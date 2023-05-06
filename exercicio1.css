@@ -1,0 +1,53 @@
+* {
+    font-family: Helvetica;
+}
+
+header {
+    border: 10px solid black;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 12pt;
+    color: white;
+    background-color: black;
+    width: 960px;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.container {
+    width: 960px;
+    margin: auto
+}
+
+.box {
+    display: inline-block;
+    margin-top: 30px;
+    width: 33%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+    box-shadow: 0 3px 8px 0 #aaa;
+    border-radius: 30px;
+}
+
+img{
+    
+    width: 100%;
+    border-radius: 8px;   
+}
+
+.image>figcaption {
+    text-align: center;
+}
+
+.text>h3 {
+    border-top: 2px solid black;
+    padding-top: 20px;
+    text-align:left;
+}
+
+.text>p {
+    text-align: justify;
+}
